@@ -1,4 +1,4 @@
-# Train Delivery & Infrastructure Simulation
+# Train Delivery
 
 A 3D arcade-style simulation game developed in C++ using the GFX Framework (described below). Navigate a train through a complex network of tracks, manage station cooldowns, and deliver resources to maximize your score within the time limit.
 
