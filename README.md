@@ -1,3 +1,50 @@
+# Train Delivery & Infrastructure Simulation
+
+A 3D arcade-style simulation game developed in C++ using the GFX Framework (described below). Navigate a train through a complex network of tracks, manage station cooldowns, and deliver resources to maximize your score within the time limit.
+
+## Key Features
+* **Dynamic Difficulty System:** Choose between 5 levels of difficulty at launch. Higher levels increase train speed and station cooldown times for a greater challenge.
+* **Complex Track Navigation:** Real-time intersection handling using a dedicated navigation system (Forward, Soft, Hard, and Sharp turns).
+* **Resource Management:** Collect Wood, Oil, and Stone from specialized stations to fulfill randomized orders at the Central Station.
+* **Procedural World:** Features dynamic track generation including tunnels (mountains), bridges (water), and sleepers.
+* **Dual Camera System:** Toggle between a rail-locked Third-Person view and a Free-Look camera for exploration.
+* **Minimap:** Real-time top-down tracking of the train's position and the surrounding rail infrastructure.
+
+## Controls
+### Start Menu
+* `1` - `5`: Select difficulty level and start the game.
+
+### Train Navigation
+* `W`: Resolve intersection Forward
+* `Q / E`: Soft Turn (Left / Right)
+* `A / D`: Hard 90-degree Turn (Left / Right)
+* `Z / C`: Sharp Turn (Left / Right)
+
+### Camera & Tools
+* `J`: Toggle between First/Third-Person and Free Camera mode.
+* `Right Click + Mouse`: Rotate camera view.
+* `W, A, S, D, Q, E`: Movement (only in Free Camera mode).
+* `P`: Reset to perspective projection.
+
+## Technical Details
+* **Language:** C++
+* **Graphics API:** OpenGL 3.3+
+* **Mathematics:** GLM (OpenGL Mathematics)
+* **Window Management:** GLFW / FreeGLUT
+* **Text Rendering:** Custom FreeType-based text renderer for UI elements.
+
+## Installation & Build
+1. Clone the repository.
+2. Ensure you have the necessary OpenGL dependencies (GLFW, GLEW/glad).
+3. Open the `.sln` file in Visual Studio.
+4. Build in **Debug** or **Release** (x64 recommended).
+5. Run the executable. (Ensure the `assets/` or `resources/` folder is in the working directory for font loading).
+
+
+
+
+
+
 # GFX Framework
 
 ## :sparkles: Introduction
